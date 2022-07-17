@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html >
-
-<!-- Mirrored from povestea-noastra.com/theme/huge404/Space Elevator/Coming Soon/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 17 Jul 2022 17:33:29 GMT -->
 <head>
   <meta charset="UTF-8">
-  <title>Space Elevator</title>
+  <title>Coming Soon</title>
+  <link rel="shortcut icon" href="download(Final).png" type="image/x-icon">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href='../../../../../external.html?link=https://fonts.googleapis.com/css?family=Raleway:100,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="normalize.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
   <div class="content">
-    <div id="countdown" data-time="2022/04/12 07:03:27"></div><!-- change data-time -->
-    <h2>SOMETHING BIG IS COMING SOON!</h2>
-    <a class="btn" href="../../../../../external.html?link=https://themeforest.net/user/squirrellabs/portfolio?ref=SquirrelLabs">
-      <img src="images/arrow.svg" />
-      Go back to our Homepage</a>
+    <div id="countdown" ></div>
+    <img src="download(Final).png">
+    <h2>Something is Brewing</h2>
   </div>
   <svg class="background__lights" id="lines" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 1920 1080" xml:space="preserve" preserveAspectRatio="none">
     <g class="lines">
@@ -61,11 +58,59 @@
   </svg>
 </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src='js/jquery.countdown.min.js'></script>
-  <script src='js/TweenMax.min.js'></script>
-  <script src="js/index.js"></script>
-</body>
 
-<!-- Mirrored from povestea-noastra.com/theme/huge404/Space Elevator/Coming Soon/index.html by HTTrack Website Copier/3.x [XR&CO'2017], Sun, 17 Jul 2022 17:33:36 GMT -->
+
+<script>
+  document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
+  return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
+  return false;
+  }
+  }
+</script>
+
+<script>
+  document.addEventListener("contextmenu", function(event){
+  event.preventDefault();
+  alert('Right Click is Disabled');    
+  }, false);
+</script>
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src='jquery.countdown.min.js'></script>
+  <script src='TweenMax.min.js'></script>
+  <script src="index.js"></script>
+</body>
 </html>
